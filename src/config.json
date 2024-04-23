@@ -5,6 +5,6 @@
         "openid",
         "profile"
     ],
-    "signInRedirectURL": "http://localhost:3000/loading-app",
-    "signOutRedirectURL": "http://localhost:3000/auth"
+    "signInRedirectURL": "https://5c53e3e6-ae6f-4812-8405-f2adbeeb2b49.e1-us-cdp-2.choreoapps.dev/loading-app",
+    "signOutRedirectURL": "https://5c53e3e6-ae6f-4812-8405-f2adbeeb2b49.e1-us-cdp-2.choreoapps.dev"
 }
