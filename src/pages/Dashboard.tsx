@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { Box, Grid, Typography } from "@mui/material";
 import { PieChart } from "@mui/x-charts";
+import FloatingAddIcon from "../components/FloatingAddIcon";
 
 interface IncomeData {
     source: string;
@@ -36,6 +37,10 @@ const DashboardPage = () => {
         { category: 'Utilities', percentage: 10 },
         { category: 'Other', percentage: 15 },
     ];
+
+    const addNewRecord = () => {
+
+    }
 
 
     return (
@@ -81,8 +86,8 @@ const DashboardPage = () => {
                                             { id: 0, value: 35, label: 'Rent' },
                                             { id: 1, value: 25, label: 'Food' },
                                             { id: 2, value: 15, label: 'Entertainment' },
-                                            { id: 2, value: 10, label: 'Utilities' },
-                                            { id: 2, value: 15, label: 'Other' },
+                                            { id: 3, value: 10, label: 'Utilities' },
+                                            { id: 4, value: 15, label: 'Other' },
                                         ],
                                         innerRadius: 30,
                                         outerRadius: 100,
@@ -101,6 +106,8 @@ const DashboardPage = () => {
                 </Grid>
 
             </Box>
+
+            <FloatingAddIcon onClick={ addNewRecord } />
         </React.Fragment>
     )
 }

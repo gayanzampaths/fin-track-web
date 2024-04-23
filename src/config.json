@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://api.asgardeo.io/t/fintrack",
+    "clientID": "Osy4671R4S9VRYWxZamIRH2wAc0a",
+    "scope": [
+        "openid",
+        "profile"
+    ],
+    "signInRedirectURL": "http://localhost:3000/loading-app",
+    "signOutRedirectURL": "http://localhost:3000/auth"
+}
